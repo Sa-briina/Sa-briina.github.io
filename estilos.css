@@ -1,0 +1,380 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Cor de fallback igual à borda */
+  }
+  
+  #background {
+    position: fixed;
+    top: -5%;
+    left: -5%;
+    width: 110%;
+    height: 109%;
+    z-index: -1;
+    overflow: hidden; /* Esconde qualquer conteúdo que vaze */
+  }
+
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+    image-rendering: -webkit-optimize-contrast; /* Chrome/Safari */
+    image-rendering: crisp-edges; /* Firefox */
+  
+   
+    filter: blur(0.5px); /* Suaviza as bordas (opcional) */
+  }
+  
+  .background-image.active {
+    opacity: 1;
+  }
+
+  
+  /* Cor das wedgets ------------------------*/
+
+.background-image:nth-child(1) {
+    --widget-theme-primary: rgb(203, 225, 255);
+    --widget-theme-text: #3a2a4a;
+    --bg-theme-shadow: rgba(100, 120, 180, 0.1);
+}
+
+.background-image:nth-child(2) {
+    --widget-theme-primary: rgb(138, 178, 189);
+    --widget-theme-text: #010102;
+    --bg-theme-shadow: rgba(50, 70, 100, 0.1);
+}
+
+.background-image:nth-child(3) {
+    --widget-theme-primary: rgba(160, 230, 180, 0.9);
+    --widget-theme-text: #3a2a4a;
+    --bg-theme-shadow: rgba(80, 120, 80, 0.1);
+}
+
+.background-image:nth-child(4) {
+    --widget-theme-primary: rgba(200, 230, 255, 0.9);
+    --widget-theme-text: #3a2a4a;
+    --bg-theme-shadow: rgba(50, 70, 100, 0.1);
+}
+
+.background-image:nth-child(5) {
+    --widget-theme-primary: rgb(200, 230, 255);
+    --widget-theme-text: #3a2a4a;
+    --bg-theme-shadow: rgba(50, 70, 100, 0.1);
+}
+
+.background-image:nth-child(6) {
+    --widget-theme-primary: rgb(153, 201, 241);
+    --widget-theme-text: #3a2a4a;
+    --bg-theme-shadow: rgba(80, 110, 150, 0.1);
+}
+
+.background-image:nth-child(7) {
+    --widget-theme-primary: rgb(247, 204, 204);
+    --widget-theme-text: #3a2a4a;
+    --bg-theme-shadow: rgba(80, 110, 150, 0.1);
+}
+
+.background-image:nth-child(8) {
+    --widget-theme-primary: rgba(180, 210, 250, 0.9);
+    --widget-theme-text: #3a2a4a;
+    --bg-theme-shadow: rgba(80, 110, 150, 0.1);
+}
+
+.background-image:nth-child(9) {
+    --widget-theme-primary: rgba(251, 196, 171, 1);
+    --widget-theme-text: #3a2a4a;
+    --bg-theme-shadow: rgba(80, 110, 150, 0.1);
+}
+
+.background-image:nth-child(10) {
+    --widget-theme-primary: rgba(243, 211, 178, 1);
+    --widget-theme-text: #3a2a4a;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(11) {
+    --widget-theme-primary: rgba(137, 182, 207);
+    --widget-theme-text: #3a2a4a;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(12) {
+    --widget-theme-primary: rgba(164, 177, 123);
+    --widget-theme-text: #3a2a4a;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(13) {
+    --widget-theme-primary: rgba(196, 161, 126);
+    --widget-theme-text: #3a2a4a;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(14) {
+    --widget-theme-primary: rgba(183, 208, 225);
+    --widget-theme-text: #3a2a4a;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(15) {
+    --widget-theme-primary: rgba(226, 189, 228);
+    --widget-theme-text: #3a2a4a;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(16) {
+    --widget-theme-primary: rgba(194, 207, 229);
+    --widget-theme-text: #3a2a4a;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(17) {
+    --widget-theme-primary: rgba(255, 178, 197);
+    --widget-theme-text: #0b080e;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(18) {
+    --widget-theme-primary: rgba(168, 170, 190);
+    --widget-theme-text: #0b080e;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(19) {
+    --widget-theme-primary: rgb(132, 191, 228);
+    --widget-theme-text: #0b080e;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(20) {
+    --widget-theme-primary: rgb(223, 161, 150);
+    --widget-theme-text: #09070c;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(21) {
+    --widget-theme-primary: rgba(235, 181, 159, 0.9);
+    --widget-theme-text: #09070c;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(22) {
+    --widget-theme-primary: rgba(226, 165, 173);
+    --widget-theme-text: #09070c;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(23) {
+    --widget-theme-primary: rgba(252, 185, 169);
+    --widget-theme-text: #09070c;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(24) {
+    --widget-theme-primary: rgba(178, 223, 219);
+    --widget-theme-text: #09070c;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(25) {
+    --widget-theme-primary: rgba(203, 220, 195);
+    --widget-theme-text: #09070c;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(26) {
+    --widget-theme-primary: rgb(230, 195, 203);
+    --widget-theme-text: #09070c;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+.background-image:nth-child(27) {
+    --widget-theme-primary: rgb(206, 233, 221);
+    --widget-theme-text: #09070c;
+    --bg-theme-shadow: rgba(100, 80, 60, 0.1);
+}
+
+
+
+
+
+  .widget {
+    /* Valores padrão (fallback) */
+    --md-sys-color-secondary-container: #f5f5f7;
+    --md-sys-color-on-secondary-container: #3a3a3c;
+    --md-sys-color-shadow: rgba(0, 0, 0, 0.03);
+    
+    background-color: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-on-secondary-container);
+    transition: all 0.5s cubic-bezier(0.33, 1, 0.68, 1);
+  }
+  .widget {
+    --md-sys-color-secondary-container: var(--widget-theme-primary, #f5f5f7);
+    --md-sys-color-on-secondary-container: var(--widget-theme-text, #3a3a3c);
+    background-color: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-on-secondary-container);
+  }
+  
+
+
+
+
+  /* COR DO TEMA PARA PROJETOS */
+ .background-image:nth-child(1) {
+    --project-theme-primary: rgb(219, 236, 250);
+    --project-theme-text: #1a2b3a; /* Mais escuro que o original */
+}
+
+.background-image:nth-child(2) {
+    --project-theme-primary: rgb(184, 219, 230);
+    --project-theme-text: #152635; /* Tom azul mais profundo */
+}
+
+.background-image:nth-child(3) {
+    --project-theme-primary: rgb(203, 220, 195);
+    --project-theme-text: #1a341f; /* Verde escuro para contraste */
+}
+
+.background-image:nth-child(4) {
+    --project-theme-primary: rgba(218, 237, 252, 0.9);
+    --project-theme-text: #121212; /* Quase preto para melhor legibilidade */
+}
+
+.background-image:nth-child(5) {
+    --project-theme-primary: rgba(223, 239, 253, 0.952);
+    --project-theme-text: #152738; /* Azul muito escuro */
+}
+
+.background-image:nth-child(6) {
+    --project-theme-primary: rgba(195, 224, 247, 0.9);
+    --project-theme-text: #142536; /* Azul escuro */
+}
+
+.background-image:nth-child(7) {
+    --project-theme-primary: rgba(252, 229, 229, 0.9);
+    --project-theme-text: #4a2323; /* Vermelho escuro */
+}
+
+.background-image:nth-child(8) {
+    --project-theme-primary: rgba(211, 229, 252, 0.9);
+    --project-theme-text: #142536; /* Azul escuro */
+}
+
+.background-image:nth-child(9) {
+    --project-theme-primary: rgba(255, 218, 185, 1);
+    --project-theme-text: #4a2e1a; /* Marrom escuro */
+}
+
+.background-image:nth-child(10) {
+    --project-theme-primary: rgba(252, 234, 208, 1);
+    --project-theme-text: #4a3a1a; /* Dourado escuro */
+}
+
+.background-image:nth-child(11) {
+    --project-theme-primary: rgba(183, 215, 234);
+    --project-theme-text: #0f2b3d; /* Azul muito escuro */
+}
+
+.background-image:nth-child(12) {
+    --project-theme-primary: rgba(195, 202, 146);
+    --project-theme-text: #2b341a; /* Verde-oliva escuro */
+}
+
+.background-image:nth-child(13) {
+    --project-theme-primary: rgba(214, 186, 152);
+    --project-theme-text: #3a2a1a; /* Marrom escuro */
+}
+
+.background-image:nth-child(14) {
+    --project-theme-primary: rgba(219, 236, 244);
+    --project-theme-text: #0d2d3a; /* Azul petróleo */
+}
+
+.background-image:nth-child(15) {
+    --project-theme-primary: rgba(218, 187, 208);
+    --project-theme-text: #3a1a34; /* Roxo escuro */
+}
+
+.background-image:nth-child(16) {
+    --project-theme-primary: rgba(232, 237, 243);
+    --project-theme-text: #1a2634; /* Azul aço escuro */
+}
+
+.background-image:nth-child(17) {
+    --project-theme-primary: rgba(255, 216, 226);
+    --project-theme-text: #4a1a2b; /* Vinho */
+}
+
+.background-image:nth-child(18) {
+    --project-theme-primary: rgba(194, 191, 200);
+    --project-theme-text: #2a1a3a; /* Roxo muito escuro */
+}
+
+.background-image:nth-child(19) {
+    --project-theme-primary: rgb(192, 231, 255);
+    --project-theme-text: #0a3a4a; /* Azul petróleo */
+}
+
+.background-image:nth-child(20) {
+    --project-theme-primary: rgb(243, 199, 189);
+    --project-theme-text: #3a1a12; /* Vermelho queimado */
+}
+
+.background-image:nth-child(21) {
+    --project-theme-primary: rgba(247, 208, 193, 0.9);
+    --project-theme-text: #3a1a12; /* Vermelho queimado */
+}
+
+.background-image:nth-child(22) {
+    --project-theme-primary: rgba(237, 205, 206);
+    --project-theme-text: #3a1212; /* Bordô */
+}
+
+.background-image:nth-child(23) {
+    --project-theme-primary: rgb(248, 207, 197);
+    --project-theme-text: #3a1212; /* Bordô */
+}
+
+.background-image:nth-child(24) {
+    --project-theme-primary: rgb(224, 242, 241);
+    --project-theme-text: #123a3a; /* Verde petróleo */
+}
+
+.background-image:nth-child(25) {
+    --project-theme-primary: rgb(240, 247, 232);
+    --project-theme-text: #1a3a12; /* Verde floresta */
+}
+
+.background-image:nth-child(26) {
+    --project-theme-primary: rgb(243, 217, 223);
+    --project-theme-text: #3a121f; /* Vinho escuro */
+}
+
+.background-image:nth-child(27) {
+    --project-theme-primary: rgb(219, 229, 223);
+    --project-theme-text: #123a1a; /* Verde musgo */
+}
+
+
+
+
+
+
+
+
+
+  .project {
+    --md-sys-color-secondary-container: var(--project-theme-primary, #f0f0f0);
+    --md-sys-color-on-secondary-container: var(--project-theme-text, #333333);
+    background-color: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-on-secondary-container);
+  }
+

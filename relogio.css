@@ -1,0 +1,320 @@
+:root {
+  --clock-color-1: #9390c7;
+  --clock-color-2: #2d6e65; 
+  --clock-color-3: #41a174;
+  --clock-color-4: #6581aa;
+  --clock-color-5: #75befa;
+  --clock-color-6: #4e80a8;
+  --clock-color-7: #f18383;
+  --clock-color-8: #7587bb;
+  --clock-color-9: #f8956e;
+  --clock-color-10: #E19C7A;
+  --clock-color-11: #417C9A;
+  --clock-color-12: #4E653D;
+  --clock-color-13: #A06F53; 
+  --clock-color-14: #5F84A2;
+  --clock-color-15: #AF69AD;
+  --clock-color-16: #7F8AC9;
+  --clock-color-17: #EE8787;
+  --clock-color-18: #71879E;
+  --clock-color-19: #1F77A6;
+  --clock-color-20: #9e5b4a;
+  --clock-color-21: #c07b6a;
+  --clock-color-22: #A85658;
+  --clock-color-23: #CB7876;
+  --clock-color-24: #63A7A6; 
+  --clock-color-25: #759c6e;
+  --clock-color-26: #b9667f;
+  --clock-color-27: #54A080;
+
+}
+
+/* Associe cada fundo a uma cor */
+/* Associe cada fundo a uma cor com stroke mais escuro */
+.background-image:nth-child(1) {
+  --clock-fill: var(--clock-color-1); /* #7773b6 */
+  --clock-stroke: #5a5691; /* ~25% mais escuro */
+}
+.background-image:nth-child(2) {
+  --clock-fill: var(--clock-color-2); /* #22443f */
+  --clock-stroke: #18332f; /* ~25% mais escuro */
+}
+.background-image:nth-child(3) {
+  --clock-fill: var(--clock-color-3); /* #06854a */
+  --clock-stroke: #056638; /* ~25% mais escuro */
+}
+.background-image:nth-child(4) {
+  --clock-fill: var(--clock-color-4); /* #5974eb */
+  --clock-stroke: #3d5ad1; /* ~25% mais escuro */
+}
+.background-image:nth-child(5) {
+  --clock-fill: var(--clock-color-5); /* #75befa */
+  --clock-stroke: #4e9fdc; /* ~25% mais escuro */
+}
+.background-image:nth-child(6) {
+  --clock-fill: var(--clock-color-6); /* #289dfd */
+  --clock-stroke: #1a7bcb; /* ~25% mais escuro */
+}
+.background-image:nth-child(7) {
+  --clock-fill: var(--clock-color-7); /* #f18383 */
+  --clock-stroke: #d16666; /* ~25% mais escuro */
+}
+.background-image:nth-child(8) {
+  --clock-fill: var(--clock-color-8); /* #658bf3 */
+  --clock-stroke: #4a6ad9; /* ~25% mais escuro */
+}
+.background-image:nth-child(9) {
+  --clock-fill: var(--clock-color-9); /* #f59b47 */
+  --clock-stroke: #d6822a; /* ~25% mais escuro */
+}
+.background-image:nth-child(10) {
+  --clock-fill: var(--clock-color-10); /* #f8b45b */
+  --clock-stroke: #e09a3a; /* ~25% mais escuro */
+}
+.background-image:nth-child(11) {
+  --clock-fill: var(--clock-color-11); /* #54bff1 */
+  --clock-stroke: #3aa0d8; /* ~25% mais escuro */
+}
+.background-image:nth-child(12) {
+  --clock-fill: var(--clock-color-12); /* #4e6e4c */
+  --clock-stroke: #3a5339; /* ~25% mais escuro */
+}
+.background-image:nth-child(13) {
+  --clock-fill: var(--clock-color-13); /* #e49c59 */
+  --clock-stroke: #c7833f; /* ~25% mais escuro */
+}
+.background-image:nth-child(14) {
+  --clock-fill: var(--clock-color-14); /* #6fb1f0 */
+  --clock-stroke: #4f92d6; /* ~25% mais escuro */
+}
+.background-image:nth-child(15) {
+  --clock-fill: var(--clock-color-15); /* #395bcc */
+  --clock-stroke: #2a44a3; /* ~25% mais escuro */
+}
+.background-image:nth-child(16) {
+  --clock-fill: var(--clock-color-16); /* #2f6e86 */
+  --clock-stroke: #21546a; /* ~25% mais escuro */
+}
+.background-image:nth-child(17) {
+  --clock-fill: var(--clock-color-17); /* #694064 */
+  --clock-stroke: #4f2f4b; /* ~25% mais escuro */
+}
+.background-image:nth-child(18) {
+  --clock-fill: var(--clock-color-18); /* #5d5b7c */
+  --clock-stroke: #454461; /* ~25% mais escuro */
+}
+.background-image:nth-child(19) {
+  --clock-fill: var(--clock-color-19); /* #39516d */
+  --clock-stroke: #2a3d52; /* ~25% mais escuro */
+}
+.background-image:nth-child(20) {
+  --clock-fill: var(--clock-color-20); /* #9e5b4a */
+  --clock-stroke: #7c4537; /* ~25% mais escuro */
+}
+.background-image:nth-child(21) {
+  --clock-fill: var(--clock-color-21); /* #c07b6a */
+  --clock-stroke: #9d5f50; /* ~25% mais escuro */
+}
+.background-image:nth-child(22) {
+  --clock-fill: var(--clock-color-22); /* #663948 */
+  --clock-stroke: #4d2a36; /* ~25% mais escuro */
+}
+.background-image:nth-child(23) {
+  --clock-fill: var(--clock-color-23); /* #d67842 */
+  --clock-stroke: #b05f31; /* ~25% mais escuro */
+}
+.background-image:nth-child(24) {
+  --clock-fill: var(--clock-color-24); /* #497540 */
+  --clock-stroke: #375a30; /* ~25% mais escuro */
+}
+.background-image:nth-child(25) {
+  --clock-fill: var(--clock-color-25); /* #759c6e */
+  --clock-stroke: #5a7d53; /* ~25% mais escuro */
+}
+.background-image:nth-child(26) {
+  --clock-fill: var(--clock-color-26); /* #b9667f */
+  --clock-stroke: #964c63; /* ~25% mais escuro */
+}
+.background-image:nth-child(27) {
+  --clock-fill: var(--clock-color-27); /* #b64b6b */
+  --clock-stroke: #963a55; /* ~25% mais escuro */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --- Define todos os ponteiros como brancos --- */
+.widget .clock-widget .widget-clock-face .widget-clock-hand {
+  --color: rgba(255, 255, 255, 0.534) !important; /* Força branco em todos */
+}
+
+/* --- Ajustes específicos para cada ponteiro --- */
+/* Ponteiro das Horas */
+.widget
+  .clock-widget
+  .widget-clock-face
+  .widget-clock-hand.widget-clock-hour-hand:before {
+  background-color: rgb(168, 166, 166) !important;
+}
+
+/* Ponteiro dos Minutos */
+.widget
+  .clock-widget
+  .widget-clock-face
+  .widget-clock-hand.widget-clock-minute-hand:before {
+  background-color: rgb(255, 251, 251) !important;
+}
+
+/* Ponteiro dos Segundos */
+.widget
+  .clock-widget
+  .widget-clock-face
+  .widget-clock-hand.widget-clock-second-hand:before {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+/* Remove efeitos de filtro que podem afetar a cor */
+.widget
+  .clock-widget
+  .widget-clock-face
+  .widget-clock-hand.widget-clock-second-hand {
+  filter: none !important;
+}
+
+.widget .clock-widget {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.widget .clock-widget .widget-clock-face {
+  aspect-ratio: 1/1;
+  height: 100%;
+  position: relative;
+}
+.widget .clock-widget .widget-clock-face > * {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.widget .clock-widget .widget-clock-face .widget-clock-bg {
+  fill: var(--md-sys-color-inverse-primary);
+}
+.widget .clock-widget .widget-clock-face .widget-clock-hand {
+  width: 100%;
+  height: 100%;
+}
+.widget
+  .clock-widget
+  .widget-clock-face
+  .widget-clock-hand.widget-clock-hour-hand:before,
+.widget
+  .clock-widget
+  .widget-clock-face
+  .widget-clock-hand.widget-clock-minute-hand:before {
+  content: "";
+  display: block;
+  width: var(--w);
+  height: calc(var(--h) + 4%);
+  position: absolute;
+  left: calc(50% - var(--w) / 2);
+  bottom: 46%;
+  border-radius: 50px;
+  background-color: var(--color);
+}
+.widget
+  .clock-widget
+  .widget-clock-face
+  .widget-clock-hand.widget-clock-hour-hand {
+  --w: 8%;
+  --h: 25%;
+  --color: var(--md-sys-color-secondary);
+}
+.widget
+  .clock-widget
+  .widget-clock-face
+  .widget-clock-hand.widget-clock-minute-hand {
+  --w: 8%;
+  --h: 34%;
+  --color: var(--md-sys-color-primary);
+}
+.widget
+  .clock-widget
+  .widget-clock-face
+  .widget-clock-hand.widget-clock-second-hand {
+  transition: transform 0.3s ease;
+  --color: var(--md-sys-color-primary);
+  filter: saturate(0.6) brightness(1.1);
+}
+.widget
+  .clock-widget
+  .widget-clock-face
+  .widget-clock-hand.widget-clock-second-hand:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 9.5%;
+  height: 9.5%;
+  border-radius: 50px;
+  top: 6.5%;
+  left: 45.25%;
+  background-color: var(--color);
+}
+.widget .clock-widget .widget-clock-text .widget-clock-date {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+.widget
+  .clock-widget
+  .widget-clock-text
+  .widget-clock-date
+  .widget-clock-date-text {
+  font-weight: 700;
+}
+.widget .clock-widget .widget-clock-text .widget-clock-time {
+  font-size: 2em;
+  min-width: 7ch;
+  font-weight: 700;
+  margin-bottom: 0.1em;
+}
+.widget
+  .clock-widget
+  .widget-clock-text
+  .widget-clock-time
+  .widget-clock-minute
+  ~ * {
+  opacity: 0.4;
+}
+.widget .clock-widget .widget-clock-text .widget-clock-timezone {
+  font-size: 0.95em;
+}
+.widget
+  .clock-widget
+  .widget-clock-text
+  .widget-clock-timezone
+  .widget-clock-timezone-utc-offset {
+  opacity: 0.6;
+}
+.widget
+  .clock-widget
+  .widget-clock-text
+  .widget-clock-timezone
+  .widget-clock-timezone-diff {
+  opacity: 0.8;
+}
