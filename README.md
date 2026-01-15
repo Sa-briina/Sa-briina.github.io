@@ -1,26 +1,6 @@
-<div align="center">
-  <img src="svgweb.svg" alt="Meu SVG personalizado" width="100%">
-</div>
-
-#
-
-## ╰┈➤ Sobre
-
-Este é o meu website pessoal, inspirado em uma estética clean, leve e minimalista. Nele você encontra links para minhas principais redes sociais, como Telegram, LinkedIn, Instagram e outras.
-
-Além disso, também uso este espaço para apresentar os projetos que desenvolvo no GitHub, criando uma vitrine online do meu portfólio.
-
-#
-
-## :wrench: Tecnologias e recursos utilizados
-
-- HTML5
-- CSS3
-- JavaScript
-- GitHub Pages
-- Google Fonts
-- Font Awesome
-- Visual Studio Code
+🚧 Site em desenvolvimento
+Este site faz parte do meu processo de aprendizado.
+Conforme adquiro mais experiência e domínio das tecnologias, ele evolui e será finalizado em breve 🚀
 
 #
 
